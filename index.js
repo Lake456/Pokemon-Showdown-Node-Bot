@@ -1,6 +1,6 @@
+
 /*
 	Pokemon Showdown Bot, for NodeJS
-
 	By: Ecuacion
 */
 
@@ -49,6 +49,11 @@ if (AppOptions.data.charAt(AppOptions.data.length - 1) !== '/') AppOptions.data 
 if (!fs.existsSync(AppOptions.data)) {
 	console.log(AppOptions.data + " does not exist - creating data directory...");
 	fs.mkdirSync(AppOptions.data);
+}
+
+if (!fs.existsSync(AppOptions.data + "_temp/")) {
+	console.log(AppOptions.data + "_temp/" + " does not exist - creating temp directory...");
+	fs.mkdirSync(AppOptions.data + "_temp/");
 }
 
 if (!fs.existsSync(AppOptions.config)) {
