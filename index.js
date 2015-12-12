@@ -20,7 +20,7 @@ try {
 
 console.log((
 	'-----------------------------------------------\n' +
-	'   Welcome to Pokemon Showdown Bot for Node!   \n' +
+	'   Welcome to Ray91 Pokemon Showdown Bot!   \n' +
 	'-----------------------------------------------\n'
 ).yellow);
 
