@@ -23,6 +23,7 @@ exports.commands = {
 		this.reply("Group Chat __" + tarRoom + "__ is no longer ignored");
 	},
 
+ 
 	/* Automated Promotion */
 
 	setautopromote: 'autopromote',

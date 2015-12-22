@@ -11,7 +11,7 @@
 		endgame: {
 			'nogame': 'Non ci sono giochi in questa room',
 			'del1': 'Il gioco del',
-			'del2': 'è stata terminata'
+			'del2': 'è stato terminato'
 		},
 		rps: {
 			'err': 'Scegliere roccia, carta o forbici',
@@ -33,7 +33,7 @@
 			'grats2': 'per vincere il gioco Hangman! La parola era',
 			'lose1': '**Game over!** Numero massimo di errori è stata superata e',
 			'lose2': 'fu impiccato! La parola era',
-			'end': 'Il gioco del Hangman è stata terminata. La parola era'
+			'end': 'Il gioco del Hangman è stato terminato. La parola era'
 		},
 		anagrams: {
 			'and': 'e',
@@ -55,7 +55,7 @@
 			'points': 'punti',
 			'tie1': 'Il risultato è un pareggio',
 			'tie2': 'fra',
-			'forceend1': 'Il gioco del Anagrams è stata terminata!',
+			'forceend1': 'Il gioco del Anagrams è stato terminato!',
 			'forceend2': 'La parola era'
 		},
 		pokehangman: {
@@ -64,7 +64,7 @@
 			'grats2': 'per vincere il gioco Poke-Hangman! La parola era',
 			'lose1': '**Game over!** Numero massimo di errori è stata superata e',
 			'lose2': 'fu impiccato! La parola era',
-			'end': 'Il gioco del Poke-Hangman è stata terminata. La parola era'
+			'end': 'Il gioco del Poke-Hangman è stato terminato. La parola era'
 		},
 		pokeanagrams: {
 			'and': 'e',
@@ -86,7 +86,7 @@
 			'points': 'punti',
 			'tie1': 'Il risultato è un pareggio',
 			'tie2': 'fra',
-			'forceend1': 'Il gioco del Poke-Anagrams è stata terminata!',
+			'forceend1': 'Il gioco del Poke-Anagrams è stato terminato!',
 			'forceend2': 'La parola era'
 		},
 		trivia: {
@@ -112,7 +112,7 @@
 			'points': 'punti',
 			'tie1': 'Il risultato è un pareggio',
 			'tie2': 'fra',
-			'forceend1': 'Il gioco del Trivia è stata terminata!',
+			'forceend1': 'Il gioco del Trivia è stato terminato!',
 			'forceend2': 'Risposte'
 		},
 		blackjack: {
@@ -169,7 +169,7 @@
 			'points': 'punti',
 			'tie1': 'Il risultato è un pareggio',
 			'tie2': 'fra',
-			'forceend1': 'Il gioco del Kunc è stata terminata!',
+			'forceend1': 'Il gioco del Kunc è stato terminato!',
 			'forceend2': 'Il pokemon era'
 		},
 		ambush: {
@@ -180,7 +180,7 @@
 			'help': 'Utilizzare **$fire [user]** di uccidere altri giocatori',
 			'end1': '**Il gioco del Kunc finita** Congratulazioni a',
 			'end2': 'per vincere la partita!',
-			'forceend': 'Il gioco del Ambush è stata terminata!'
+			'forceend': 'Il gioco del Ambush è stato terminato!'
 		},
 		passthebomb: {
 			'init': '**Un nuovo gioco di Pass-The-Bomb è stato creato!** Utilizzare **$in** a partecipare e **$start** per iniziare il gioco',
@@ -191,7 +191,7 @@
 			'lose': 'ottenuto eliminato!',
 			'end1': '**Il gioco del Kunc finita!** Congratulazioni a',
 			'end2': 'per vincere la partita!',
-			'forceend': 'Il gioco del Pass-The-Bomb è stata terminata!'
+			'forceend': 'Il gioco del Pass-The-Bomb è stato terminato!'
 		}
 	}
 };

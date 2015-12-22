@@ -40,7 +40,7 @@ exports.watchconfig = false;
 
 exports.nick = 'Ray91';
 
-exports.pass = 'polpol';
+exports.pass = 'higuain';
 
 exports.autoReloginDelay = 60 * 1000;
 
@@ -64,7 +64,7 @@ exports.ignoreRooms = { //Rooms listed here will be ignored by CommandParser (bo
 	//roomid: true
 };
 
-exports.initCmds = ['|/avatar #teamrocket']; // Other commands (avatar, blockchallenges, etc)
+exports.initCmds = ['|/avatar #yellow']; // Other commands (avatar, blockchallenges, etc)
 
 /*
 * Auth configuration
@@ -74,14 +74,14 @@ exports.exceptions = {
 	// 'userid': true
 };
 
-/*
-* 'userid': 'rank' or 'userid': true for full access
-* Example:
+
+ 
+ Example:
 exports.exceptions = {
 	'nkobellic': true,
-	'brutalhax': true
+	'france': true
 };
-*/
+
 
 exports.ranks = [''];
 
@@ -99,11 +99,11 @@ exports.globalPermissions = {
 
 exports.commandTokens = ['+']; //Array of valid command characters
 
-exports.defaultPermission = '%';
+exports.defaultPermission = '';
 
 exports.permissionExceptions = {
 	//command: 'rank'
-	'say': '#'
+	'say': ''
 	
 };
 
@@ -155,7 +155,7 @@ exports.debug = {
 exports.moderation = {
 	modException: '%', // Min rank for not receive moderation
 
-	allowmute: true,
+	allowmute: false,
 	disableModNote: false,
 
 	MOD_CONSTS: {
@@ -231,14 +231,14 @@ exports.moderation = {
 * Battles
 */
 
-exports.aceptAll = false;
+exports.aceptAll = true;
 
-exports.maxBattles = 3;
+exports.maxBattles = 5;
 
 exports.initBattleMsg = ['l2p'];
 
 exports.winmsg = ['l2p sono il più forte', 'gg noob'];
-exports.losemsg = ['omg che culo di merda', 'l2p'];
+exports.losemsg = ['CITER AAAA Kappa', 'l2p'];
 
 exports.battleMessages = {
 	/* Examples of battle messages:
@@ -256,7 +256,7 @@ exports.abandonedBattleAutojoin = true;
 
 exports.ladderCheckInterval = 10 * 1000;
 
-exports.ladderNumberOfBattles = 3;
+exports.ladderNumberOfBattles = 5;
 
 exports.formatAliases = {
 	'random': 'Random Battle',
@@ -264,7 +264,7 @@ exports.formatAliases = {
 	'randomtriples': 'Random Triples Battle',
 	'doubles': 'Doubles OU',
 	'triples': 'Smogon Triples',
-	'vgc': 'Battle Spot Doubles (VGC 2015)',
+	'vgc2016': 'VGC 2016',
 	'vgc2015': 'Battle Spot Doubles (VGC 2015)',
 	'ag': 'Anything Goes',
 	'oras': 'OU',
