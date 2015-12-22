@@ -458,10 +458,16 @@ exports.tryTranslate = function (type, name, lang) {
 /* Battle formats and data */
 
 exports.parseAliases = function (format) {
+	if (!format) return '';
 	format = toId(format);
 	var aliases = Config.formatAliases || {};
 	if (Formats[format]) return format;
-	if (aliases[format]) return toId(aliases[format]);
+	if (aliases[format]) format = toId(aliases[format]);
+	if (Formats[format]) return format;
+	try {
+		var psAliases = require("./data/aliases.js").BattleAliases;
+		if (psAliases[format]) format = toId(psAliases[format]);
+	} catch (e) {}
 	return format;
 };
 
@@ -507,7 +513,7 @@ var teamToJSON = exports.teamToJSON = function (text) {
 		if (line === '' || line === '---') {
 			curSet = null;
 		} else if (!curSet) {
-			curSet = {name: '', species: '', gender: ''};
+			curSet = {name: '', species: '', gender: '', item: '', ability: '', nature: ''};
 			team.push(curSet);
 			var atIndex = line.lastIndexOf(' @ ');
 			if (atIndex !== -1) {
