@@ -16,7 +16,7 @@
 			'e7': 'Tipo di tour non valido. Scegliere tra elimination e roundrobin',
 			'notstarted': 'Error: il torneo non è iniziato, non hai i permessi o i comandi sono cambiati.',
 			'param': 'Parametro',
-			'paramhelp': 'non trovato, i parametri valido sono'
+			'paramhelp': 'non trovato, i parametri validi sono'
 		},
 		leaderboard: {
 			'usage': 'Usage',
