@@ -6,7 +6,6 @@
 		pick: {'pick': 'Scelta a caso', 'err': 'Devi impostare almeno due opzioni valide'},
 		randomanswer: {
 			'answers': [
-				'Assegna punti a sì',
 				'Sì.',
 				'Risposta dubbia, ritenta.',
 				'Senza dubbio.',
@@ -30,13 +29,13 @@
 		},
 		regdate: {
 			'inv': 'Nome utente non valido',
-			'busy': 'Al momento di scaricare i dati, provare di nuovo in pochi secondi',
-			'err': 'Impossibile ottenere i dati da',
+			'busy': 'Al momento i dati sono in caricamento, riprovare di nuovo tra pochi secondi',
+			'err': 'Impossibile ottenere i dati di',
 			'user': 'Utente',
 			'not': 'non è registrato',
 			'regtime1': 'è stato registrato',
 			'regtime2': 'fa',
-			'regdate': 'è stato registrato su'
+			'regdate': 'si è registrato il'
 		},
 		/*
 		* Smogon
@@ -50,12 +49,12 @@
 			'tiererr2': 'non trovato',
 			'tiererr3': 'non disponibile',
 			'err': 'Impossibile ottenere i dati di utilizzo di',
-			'busy': 'Download dei dati di utilizzo. Riprovare in pochi secondi',
+			'busy': 'Download dei dati di utilizzo. Riprovare tra pochi secondi',
 			'pokeerr1': 'Pokemon',
 			'pokeerr2': 'non disponibile in',
 			'pokeerr3': 'dati di utilizzo',
 			'pokeerr4': 'statistiche di utilizzo',
-			'notfound': 'I dati non trovato per',
+			'notfound': 'Dati non trovati per',
 			'usagedata1': '#NAME di ',
 			'usagedata2': '',
 			'pokeusage': 'Uso',
@@ -64,21 +63,21 @@
 			'items': 'Strumenti',
 			'moves': 'Mosse',
 			'spreads': 'Spreads',
-			'teammates': 'Compagne'
+			'teammates': 'Mates'
 		},
 		suspect: {
 			'tiererr1': 'Tier',
 			'tiererr2': 'non trovato',
 			'in': 'in',
-			'nosuspect': 'Non ci sono dati suspect test data trovato per tier',
+			'nosuspect': 'Non sono stati trovati dati di alcun Suspect Test per questa tier',
 			'aux1': 'Usa',
-			'aux2': 'per impostare i dati sospetti'
+			'aux2': 'per registrare i dati necessari.'
 		},
 		setsuspect: {
 			'usage': 'Uso corretto',
 			'tier': 'Tier',
 			'notfound': 'non trovato',
-			'd1': 'Suspect test i dati di secondo tier',
+			'd1': 'I dati dei Suspect Test di questa Tier',
 			'd2': 'è stato rimosso'
 		},
 		deftier: {
@@ -86,7 +85,7 @@
 			'notchat': 'Questo comando è solo disponibile nelle chat room',
 			'tiererr1': 'Tier',
 			'tiererr2': 'non trovato',
-			'set': 'Tier di default per questa room è ora'
+			'set': 'La tier di default per questa room è adesso'
 		},
 		/*
 		* Quotes & Jokes
@@ -94,36 +93,36 @@
 		quote: {
 			'u1': 'Usage',
 			'u2': '[id], [citazione]',
-			'empty': 'Database è vuoto',
-			'noid': 'È necessario specificare un documento d\'identità valido',
+			'empty': 'Il Database è vuoto',
+			'noid': 'È necessario specificare un documento valido',
 			'quote': 'Citazione',
 			'n': 'non esiste',
-			'd': 'è stato eliminato con successo',
+			'd': 'è stata eliminata con successo',
 			'already': 'esiste già',
-			'modified': 'è stato modificato con successo',
-			'created': 'è stato creato con successo'
+			'modified': 'è stata modificata con successo',
+			'created': 'è stata creata con successo'
 		},
 		listquotes: {
-			'empty': 'Elenco di citazioni è vuota',
+			'empty': 'L\'Elenco di citazioni è vuoto',
 			'list': 'Lista di citazioni',
-			'err': 'Errore: non è riuscito a caricare le virgolette per Hastebin'
+			'err': 'Errore: non sono riuscito a caricare le virgolette per Hastebin'
 		},
 		joke: {
 			'u1': 'Usage',
 			'u2': '[id], [battuta]',
-			'empty': 'Database è vuoto',
-			'noid': 'È necessario specificare un documento d\'identità valido',
+			'empty': 'Il Database è vuoto',
+			'noid': 'È necessario specificare un documento valido',
 			'joke': 'Battuta',
 			'n': 'non esiste',
-			'd': 'è stato eliminato con successo',
+			'd': 'è stata eliminata con successo',
 			'already': 'esiste già',
-			'modified': 'è stato modificato con successo',
-			'created': 'è stato creato con successo'
+			'modified': 'è stata modificata con successo',
+			'created': 'è stata creata con successo'
 		},
 		listjokes: {
-			'empty': 'Elenco di battute è vuota',
-			'list': 'Elenco di battute',
-			'err': 'Errore: non è riuscito a caricare scherzi a Hastebin'
+			'empty': 'L\'Elenco di battute è vuota',
+			'list': 'L\'Elenco di battute',
+			'err': 'Errore: non sono riuscito a caricare gli scherzi su Hastebin'
 		},
 		/*
 		* Pokemon Commands
@@ -133,15 +132,15 @@
 			'u2': '[parola], (lingua di partenza), (lingua di arrivo)',
 			'lnot1': 'Lingua',
 			'lnot2': 'non disponibile. Lingue disponibili',
-			'not1': 'Pokemon, ability, item, move o nature chiamato',
-			'not2': 'non trovato o non disponibile in traduzioni',
-			'not3': 'non trovato',
-			'tra': 'Traduzioni di',
+			'not1': 'Pokemon, abilità, oggetto, mossa o natura chiamata',
+			'not2': 'non trovata o non disponibile nelle traduzioni',
+			'not3': 'non trovata',
+			'tra': 'Traduzione di',
 			'pokemon': 'Pokemon',
-			'abilities': 'Ability',
-			'items': 'Item',
-			'moves': 'Move',
-			'natures': 'Nature'
+			'abilities': 'Abilità',
+			'items': 'Oggetto',
+			'moves': 'Mossa',
+			'natures': 'Natura'
 		},
 		randompokemon: {'err': 'C\'è stato un errore, riprova più tardi'},
 		gen: {
