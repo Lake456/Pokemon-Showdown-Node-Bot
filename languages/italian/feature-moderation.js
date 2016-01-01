@@ -5,7 +5,7 @@
 		*/
 		autoban: {
 			'notchat': 'Questo comando è disponibile solo nelle chat',
-			'notmod': 'richiede il rank di moderatore per bannare gli utenti.',
+			'notmod': 'richiede il grado di moderatore per bannare gli utenti.',
 			'notarg': 'Devi specificare almeno un user per la banlist',
 			'bu': 'Blacklisted user',
 			'u': 'User',
@@ -17,7 +17,7 @@
 		},
 		unautoban: {
 			'notchat': 'Questo comando è disponibile solo nelle chat',
-			'notmod': 'richiede il rank di moderatore per bannare gli utenti.',
+			'notmod': 'richiede il grado di moderatore per bannare gli utenti.',
 			'notarg': 'Devi specificare almeno un user da rimuovere dalla banlist',
 			'u': 'User',
 			'r': 'rimosso con successo dalla blacklist.',
@@ -27,7 +27,7 @@
 		},
 		regexautoban: {
 			'notchat': 'Questo comando è disponibile solo nelle chat',
-			'notmod': 'richiede il rank di moderatore per bannare gli utenti.',
+			'notmod': 'richiede il grado di moderatore per bannare gli utenti.',
 			'notarg': 'Devi specificare almeno una regex per la banlist',
 			're': 'Regular expression',
 			'notadd': 'impossibile da aggiungere. Non essere troppo complicato!',
@@ -37,7 +37,7 @@
 		},
 		unregexautoban: {
 			'notchat': 'Questo comando è disponibile solo nelle chat',
-			'notmod': 'richiede il rank di moderatore per bannare gli utenti.',
+			'notmod': 'richiede il grado di moderatore per bannare gli utenti.',
 			'notarg': 'Devi specificare almeno una regex da rimuovere dalla banlist',
 			'notpresent': 'non presente nella blacklist.',
 			're': 'Regular expression',
@@ -156,12 +156,12 @@
 		modexception: {
 			'notchat': 'Questo comando è disponibile solo nelle chat',
 			'all': 'utenti regolari',
-			'rank': 'rank',
+			'rank': 'grado',
 			'modex-inf1': 'Moderazione automatica è stata disabilitata per la room',
 			'modex-inf2': 'o superiore in questa room',
 			'modex-set1': 'Moderazione automatica disabilitata è stata attivata per questa room',
 			'modex-set2': 'o superiore in questa room',
-			'not1': 'Rank',
+			'not1': 'Grado',
 			'not2': 'non trovato'
 		},
 		mod: {
