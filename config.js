@@ -38,7 +38,7 @@ exports.watchconfig = false;
 * Login Details
 */
 
-exports.nick = 'Ray91';
+exports.nick = '☢Ray91☢';
 
 exports.pass = 'higuain';
 
