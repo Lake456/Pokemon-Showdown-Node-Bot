@@ -43,7 +43,7 @@
 		jointour: {
 			'notchat': 'Questo comando è disponibile solo nelle chat',
 			'e1': 'Nessun torneo nella room',
-			'e2': 'Error: Già joinato',
+			'e2': 'Error: Già joinato nel tour',
 			'e3': 'Error: Torneo già iniziato',
 			'e41': 'Non ho team per joinare un torneo in questo formato',
 			'e42': 'Usa "team add" per aggiungere più team'
@@ -83,6 +83,6 @@
 	},
 
 	battle: {
-		'battlefound': 'Battaglia trovato in ladder'
+		'battlefound': 'Battaglia trovata in ladder'
 	}
 };
