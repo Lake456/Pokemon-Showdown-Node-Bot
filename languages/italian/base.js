@@ -36,13 +36,13 @@
 		* Admin Commands
 		*/
 		language: {
-			'notchat': 'Questo comando è solo disponibile nelle chat room',
+			'notchat': 'Questo comando è disponibile solo nelle chatroom',
 			'nolang': 'Devi specificare una lingua',
 			'v': 'Le lingue supportate sono',
-			'l': 'Il linguaggio di questa room è: Italiano'
+			'l': 'Il linguaggio di questa chat è: Italiano'
 		},
 		set: {
-			'notchat': 'TQuesto comando è solo disponibile nelle chat room',
+			'notchat': 'Questo comando è disponibile solo nelle chatroom',
 			'denied': 'Accesso negato',
 			'u1': 'Usage',
 			'u2': '[permission], [rank]',

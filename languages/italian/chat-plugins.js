@@ -6,6 +6,7 @@
 		pick: {'pick': 'Scelta a caso', 'err': 'Devi impostare almeno due opzioni valide'},
 		randomanswer: {
 			'answers': [
+				'Eh, è un pò coglione',
 				'Sì.',
 				'Risposta dubbia, ritenta.',
 				'Senza dubbio.',

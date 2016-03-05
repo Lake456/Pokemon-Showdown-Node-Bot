@@ -11,7 +11,7 @@
 *
 */
 
-exports.server = 'test3-flareninja.c9.io';
+exports.server = 'galaxy6-flareninja.c9users.io';
 
 exports.port = 80;
 
@@ -78,8 +78,9 @@ exports.exceptions = {
  
  Example:
 exports.exceptions = {
-	'nkobellic': true,
-	'france': true
+	'flareninja': true,
+	'pokekit': true,
+	'nkobellic': true
 };
 
 
